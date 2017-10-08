@@ -9,8 +9,8 @@ avatarDesc: Android / java
 url: "http://xiaopihair.github.io"
 
 # Comment
-comment:
-    disqus: leopard
+# comment:
+    # disqus:
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
@@ -27,7 +27,7 @@ baidu:
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-ga:
+# ga:
     id:
     host: auto
 
