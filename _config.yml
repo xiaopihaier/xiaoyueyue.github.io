@@ -3,10 +3,10 @@ title: 背书包的小屁孩儿
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: 背书包的小屁孩儿
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: android / java
+url: "http://xiaopihaier.github.io"
 
 # Comment
 comment:
@@ -15,30 +15,16 @@ comment:
 
 # Social
 social:
-    weibo: 5366874726
-    github: leopardpan
+    # weibo:
+    github: xiaopihaier
     # twitter:
-    mail: leopardpan@icloud.com
+    mail: bzdqsml.1@gmail.com
 
 # 百度统计
 # 使用博客模板请去掉或者更换 id
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421
+    id: 5a73dd1f48c5a3d493dc3d1328534f73
 
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-84134159-3
-    host: auto
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
