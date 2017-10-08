@@ -31,5 +31,5 @@ getch();
 
 最后附上ascll表
 <div align="center">
-	<img src="/images/image/ascll.jpg" height="954" width="652" />
+	<img src="/images/image/ascll.jpg" height="1000" width="1000" />
 </div>
