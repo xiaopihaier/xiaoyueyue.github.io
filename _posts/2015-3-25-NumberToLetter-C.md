@@ -28,7 +28,7 @@ defaul:printf("输入错误\n");
 }
 getch();
 }
-
+---
 最后附上ascll表
 <div align="center">
 	<img src="/images/image/ascll.jpg" height="954" width="652" />
