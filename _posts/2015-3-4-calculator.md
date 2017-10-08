@@ -25,4 +25,4 @@ case '/':printf("%d%c%d=%d\n",a,c,b,a/b);break;
 defaul:printf("输入错误\n");   
 }
 getch();
-}
+}```
