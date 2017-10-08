@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "将数字转换为字母 "
-date: 2015-3-4 20:14
+date: 2015-3-25 11:26
 description: "将数字转换为字母 "
 tag: C
 ---
 
 
-今天学习了ascll表，不得不说那个表是真的多，头都看大了，但是为了自己还是得记啊，
+今天学习了ascll表，不得不说那个表是真的多，头都看大了，但是为了自己还是得记啊.
 
 <pre>
 #include<stdio.h>
@@ -27,10 +27,8 @@ case '/':printf("%d%c%d=%d\n",a,c,b,a/b);break;
 defaul:printf("输入错误\n");   
 }
 getch();
-}</pre>
+}
 
-<p>
----
 最后附上ascll表
 <div align="center">
 	<img src="/images/image/ascll.jpg" height="954" width="652" />
