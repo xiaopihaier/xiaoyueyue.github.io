@@ -27,7 +27,9 @@ case '/':printf("%d%c%d=%d\n",a,c,b,a/b);break;
 defaul:printf("输入错误\n");   
 }
 getch();
-}
+}</pre>
+
+<p>
 ---
 最后附上ascll表
 <div align="center">
