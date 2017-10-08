@@ -14,9 +14,7 @@ tag: C
 
 （当时不知道那叫啥，后来百度了下原来叫cmd），也算迈出了第一步。
 
-<p>
-<pre><code>
-#include<stdio.h>
+```#include<stdio.h>
 #include<conio.h>
 void main()
 {
@@ -33,4 +31,4 @@ case '/':printf("%d%c%d=%d\n",a,c,b,a/b);break;
 defaul:printf("输入错误\n");   
 }
 getch();
-}
+} ```
