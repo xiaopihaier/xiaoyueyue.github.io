@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "利用结构体调用系统时间"
+title: "多线程实现存取金钱"
 date: 2016-2-4 20:14
-description: "利用结构体调用系统时间"
+description: "多线程实现存取金钱"
 tag: java
 ---
 
