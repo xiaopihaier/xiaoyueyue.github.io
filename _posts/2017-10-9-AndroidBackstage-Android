@@ -1,0 +1,23 @@
+---
+layout: post
+title: "jsp实现Android登录验证"
+date: 2017-10-9 12:30
+description: "jsp实现Android登录验证"
+tag: Android
+---
+
+
+身为一个Android开发人员，今天给大家讲讲如何自己来实现一个属于自己的AndroidAPP用户登录后台验证。
+#
+
+<pre>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i = 560, h, m;
+ h = i / 60;
+ m = i % 60;
+ printf("%d小时%d分钟",h,m);
+ getchar();
+}
