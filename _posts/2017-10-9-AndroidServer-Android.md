@@ -21,7 +21,8 @@ tag: Android
 也可以比我做的更好也说不定呢。
 
 
-``` login.xml文件中的代码如下：
+login.xml文件中的代码如下：
+```
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -67,8 +68,9 @@ tag: Android
             android:textSize="20sp"
             android:textStyle="bold"/>
     </LinearLayout>
-
+```
 登陆按钮的样式代码如下：
+```
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#0f50cec1"/>
     <corners
@@ -78,8 +80,10 @@ tag: Android
         android:topRightRadius="10dp"
         />
 </shape>
+```
 
 输入框的样式代码：
+```
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="rectangle">
     <solid android:color="#2fe7e7b4"/>
@@ -92,8 +96,10 @@ tag: Android
         android:topLeftRadius="8dp"
         android:topRightRadius="8dp"/>
 </shape>
+```
 
 中间半透明效果的方框代码如下：
+```
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#0ffdfdfd"/>
     <corners
