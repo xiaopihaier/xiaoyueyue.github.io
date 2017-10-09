@@ -19,3 +19,64 @@ tag: Android
   <img src="/images/image/login_two.png htight="500" whdth="500"/>
 
 <pre>
+login.xml文件中的代码如下：
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#463444"
+    tools:context="com.example.xiaopihaier.menu.Login">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/background_from1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/Password"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit"
+            android:gravity="center"
+            android:hint="@string/Username"
+            android:inputType="number"
+            android:textColor="@color/color_text"/>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edit"
+            android:gravity="center"
+            android:hint="@string/Password"
+            android:inputType="numberPassword"
+            android:textColor="@color/color_text"/>
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_button"
+            android:gravity="center"
+            android:text="@string/Login"
+            android:textColor="@color/color_text"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
