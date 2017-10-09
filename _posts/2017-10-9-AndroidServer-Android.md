@@ -108,4 +108,5 @@ login.xml文件中的代码如下：
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
         />
-</shape>```
+</shape>
+```
