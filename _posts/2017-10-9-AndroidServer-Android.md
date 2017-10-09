@@ -21,8 +21,7 @@ tag: Android
 也可以比我做的更好也说不定呢。
 
 
-<pre>
-login.xml文件中的代码如下：
+``` login.xml文件中的代码如下：
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -103,4 +102,4 @@ login.xml文件中的代码如下：
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
         />
-</shape>
+</shape>```
