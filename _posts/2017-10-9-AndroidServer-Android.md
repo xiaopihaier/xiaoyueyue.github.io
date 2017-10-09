@@ -25,54 +25,70 @@ tag: Android
 
 login.xml文件中的代码如下：
 ```
-    <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/background_from1"
-        android:orientation="vertical">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#463444"
+tools:context="com.example.xiaopihaier.menu.Login">
 
-        <EditText
-            android:layout_width="220dp"
-            android:layout_height="50dp"
-            android:layout_above="@+id/Password"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/background_edit"
-            android:gravity="center"
-            android:hint="@string/Username"
-            android:inputType="number"
-            android:textColor="@color/color_text"/>
+<LinearLayout
+		android:layout_width="300dp"
+		android:layout_height="300dp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="60dp"
+		android:background="@drawable/background_from1"
+		android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/Password"
-            android:layout_width="220dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/background_edit"
-            android:gravity="center"
-            android:hint="@string/Password"
-            android:inputType="numberPassword"
-            android:textColor="@color/color_text"/>
+		<EditText
+				android:layout_width="220dp"
+				android:layout_height="50dp"
+				android:layout_above="@+id/Password"
+				android:layout_gravity="center"
+				android:layout_marginTop="20dp"
+				android:background="@drawable/background_edit"
+				android:gravity="center"
+				android:hint="@string/Username"
+				android:inputType="number"
+				android:textColor="@color/color_text"/>
 
-        <Button
-            android:id="@+id/Login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/background_button"
-            android:gravity="center"
-            android:text="@string/Login"
-            android:textColor="@color/color_text"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
-    </LinearLayout>
+		<EditText
+				android:id="@+id/Password"
+				android:layout_width="220dp"
+				android:layout_height="50dp"
+				android:layout_gravity="center"
+				android:layout_marginTop="20dp"
+				android:background="@drawable/background_edit"
+				android:gravity="center"
+				android:hint="@string/Password"
+				android:inputType="numberPassword"
+				android:textColor="@color/color_text"/>
+
+		<Button
+				android:id="@+id/Login"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginTop="20dp"
+				android:background="@drawable/background_button"
+				android:gravity="center"
+				android:text="@string/Login"
+				android:textColor="@color/color_text"
+				android:textSize="20sp"
+				android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
+
 ```
 登陆按钮的样式代码如下：
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#0f50cec1"/>
     <corners
@@ -86,6 +102,7 @@ login.xml文件中的代码如下：
 
 输入框的样式代码：
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
        android:shape="rectangle">
     <solid android:color="#2fe7e7b4"/>
@@ -102,6 +119,7 @@ login.xml文件中的代码如下：
 
 中间半透明效果的方框代码如下：
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="#0ffdfdfd"/>
     <corners
