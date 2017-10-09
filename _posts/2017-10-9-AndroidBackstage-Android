@@ -20,4 +20,5 @@ void main()
  m = i % 60;
  printf("%d小时%d分钟",h,m);
  getchar();
+ 
 }
