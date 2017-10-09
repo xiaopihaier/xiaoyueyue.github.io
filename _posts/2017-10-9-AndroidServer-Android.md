@@ -64,18 +64,7 @@ login.xml文件中的代码如下：
             android:inputType="numberPassword"
             android:textColor="@color/color_text"/>
 
-        <Button
-            android:id="@+id/Login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/background_button"
-            android:gravity="center"
-            android:text="@string/Login"
-            android:textColor="@color/color_text"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+      
 
     </LinearLayout>
 
