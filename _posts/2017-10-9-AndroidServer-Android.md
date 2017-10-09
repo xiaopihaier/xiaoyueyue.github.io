@@ -82,7 +82,7 @@ login.xml文件中的代码如下：
 
 </RelativeLayout>
 
-
+<pre>
 登陆按钮的样式代码如下：
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
@@ -95,6 +95,7 @@ login.xml文件中的代码如下：
         />
 </shape>
 
+<pre>
 输入框的样式代码：
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -110,6 +111,7 @@ login.xml文件中的代码如下：
         android:topRightRadius="8dp"/>
 </shape>
 
+<pre>
 中间半透明效果的方框代码如下：
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
