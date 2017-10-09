@@ -15,7 +15,8 @@ tag: Android
 可能大叫都会想：这人是不是在骗我们啊，这界面明明这么丑，说好的美美哒的界面呢，(╯▔皿▔)╯。在这儿，我给各位看官说说，你们放心
 我不会骗大家的，这只是第一步，后面还要继续呢。最后我们大家都来看看效果，就知道我有没有骗大家哦~~~///(^v^)\\\~~~
 第二步：
-开始我们的修改，这就是修改完成后的效果图，是不是比原来的要好看多了，没骗你们吧，后面附上相关的代码片段供大家学习和参考
+开始我们的修改，这就是修改完成后的效果图，是不是比原来的要好看多了，没骗你们吧，后面附上相关的代码片段供大家学习和参考，也许你们
+也可以比我做的更好也说不定呢。
   <img src="/images/image/login_two.png htight="500" whdth="500"/>
 
 <pre>
@@ -75,8 +76,46 @@ login.xml文件中的代码如下：
             android:textSize="20sp"
             android:textStyle="bold"/>
 
-
     </LinearLayout>
 
-
 </RelativeLayout>
+
+
+登陆按钮的样式代码如下：
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0f50cec1"/>
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        />
+</shape>
+
+输入框的样式代码：
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <solid android:color="#2fe7e7b4"/>
+    <stroke
+        android:width="1dp"
+        android:color="#2fffffff"/>
+    <corners
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp"/>
+</shape>
+
+中间半透明效果的方框代码如下：
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0ffdfdfd"/>
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        />
+</shape>
