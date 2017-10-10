@@ -43,9 +43,9 @@ tools:context="com.example.xiaopihaier.menu.Login">
 		android:orientation="vertical">
 
 		<EditText
+				android:id="@+id/Username"
 				android:layout_width="220dp"
 				android:layout_height="50dp"
-				android:layout_above="@+id/Password"
 				android:layout_gravity="center"
 				android:layout_marginTop="20dp"
 				android:background="@drawable/background_edit"
