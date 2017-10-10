@@ -9,7 +9,7 @@ tag: C
 
 今天学习了ascll表，不得不说那个表是真的多，头都看大了，但是为了自己还是得记啊.
 
-<pre>
+```
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -28,6 +28,7 @@ defaul:printf("输入错误\n");
 }
 getch();
 }
+```
 
 最后附上ascll表
 <div align="center">
