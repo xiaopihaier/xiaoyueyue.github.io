@@ -7,7 +7,7 @@ tag: java
 ---
 
 多线程大家应该都不陌生吧，你边听歌边玩儿游戏，CPU同时要处理两个东西吧，其实并不是同时处理的，这就是多个线程交替的来进行的，只是时间非常的短，就让大家认为是同时处理的，今天就通过多线程来实现java存取钱的显示
-<pre>
+```
 package com.xiaopihaier.多线程;
 
 import java.util.Scanner;
@@ -63,3 +63,4 @@ public void run() {
 
 }
 }
+```

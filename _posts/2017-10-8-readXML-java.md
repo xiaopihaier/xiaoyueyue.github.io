@@ -10,7 +10,7 @@ tag: java
 今天来实现一个Java解析一个xml的网站，看看效果是啥样的
 
 
-<pre>
+```
 package com.xiaopihaer;
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
@@ -50,3 +50,4 @@ public class ReadXML {
 	}
 
 }
+```

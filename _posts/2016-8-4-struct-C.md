@@ -7,7 +7,7 @@ tag: C
 ---
 
 显得无聊就做了一个显示系统时间的，做的还有点头大，差点就放弃了
-<pre>
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
@@ -26,3 +26,4 @@ int main()
 	}
 	system("pause");
 }
+```

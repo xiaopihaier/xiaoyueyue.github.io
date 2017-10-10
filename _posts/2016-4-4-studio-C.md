@@ -9,7 +9,7 @@ tag: C
 
 今天来做一个高端的东西，学生成绩管理系统，o(*￣▽￣*)ブ，听起来就很高大上吧，我也是这样认为的，让我们一起来看看吧
 
-<pre>
+```
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -57,3 +57,4 @@ int main()
 	printf("男：%d\n女：%d\n",M,W);
 	system("pause");
 }
+```

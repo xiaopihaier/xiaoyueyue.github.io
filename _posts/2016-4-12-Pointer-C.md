@@ -9,7 +9,7 @@ tag: C
 
 指针，没听过，感觉好高端，听老师说很难，哇，这不是打击了我们么(╯‵□′)╯︵┻━┻，我不管我就要看
 
-<pre>
+```
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -28,3 +28,4 @@ int main()
  printf("最大的數是：%lf\n",max);
  system("pause");
 }
+```

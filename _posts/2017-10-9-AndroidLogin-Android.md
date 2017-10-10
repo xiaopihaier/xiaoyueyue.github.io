@@ -12,7 +12,7 @@ tag: Android
 第一步：
 我们开始还是要创建一个初始的登陆界面，尽管看起来是那么的丑陋，没事，我们慢慢的修改，慢慢的给他化妆，让他变得美美哒o(*￣▽￣*)ブ
 <div align="center">
-	<img src="/images/image/Login.jpg" height="500" width="500" />
+	<img src="/images/image/Login.jpg" height="200" width="400" />
 </div>
 可能大叫都会想：这人是不是在骗我们啊，这界面明明这么丑，说好的美美哒的界面呢，(╯▔皿▔)╯。在这儿，我给各位看官说说，你们放心
 我不会骗大家的，这只是第一步，后面还要继续呢。最后我们大家都来看看效果，就知道我有没有骗大家哦~~~///(^v^)\\\~~~
@@ -20,7 +20,7 @@ tag: Android
 开始我们的修改，这就是修改完成后的效果图，是不是比原来的要好看多了，没骗你们吧，后面附上相关的代码片段供大家学习和参考，也许你们
 也可以比我做的更好也说不定呢。
 <div align="center">
-	<img src="/images/image/login_two.png" height="500" width="500" />
+	<img src="/images/image/login_two.png" height="379" width="261" />
 </div>
 
 login.xml文件中的代码如下：
