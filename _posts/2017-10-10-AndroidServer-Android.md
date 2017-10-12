@@ -11,7 +11,7 @@ tag: Android
 第一步：
 准备工具如下：模拟器任意，WindowsServer2008R2，sqlserver2012，Java编译环境，Javaee编译器（eclipse）
 第二步骤：
-服务端，我们先创建一个数据库，叫做Menu，然后我们再在数据库中创建一个表，叫做LoginInformation,表中我们创建两个字段，一个username，一个password，如图所示设置。随后我们创建一个javaweb，用来处理客户端向服务端发送的数据，这里要用到sqljdbc4.jar文件，将此文件放入WebContent-WEB-INF-lib目录下，随后我们创建两个jsp文件用于实现客户端的注册和登陆。
+服务端，我们先创建一个数据库，叫做Menu，然后我们再在数据库中创建一个表，叫做LoginInformation,表中我们创建两个字段，一个username，一个password，如图所示设置。随后我们创建一个javaweb，用来处理客户端向服务端发送的数据，这里要用到sqljdbc4.jar文件，将此文件放入WebContent-WEB-INF-lib目录下，随后我们创建两个jsp文件用于实现客户端的注册和登陆，并返回json数据，Android客户端解析jsp返回的json数据。
 
 注册检测代码如下：
 
@@ -61,6 +61,8 @@ tag: Android
 
 登陆测试代码：
 ```
+<%@page import="org.json.JSONObject"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
@@ -82,6 +84,7 @@ tag: Android
 		// 创建statement 负责执行sql语句
 		Statement st = (Statement) conn.createStatement();
 		ResultSet rs = (ResultSet) st.executeQuery("SELECT *FROM LoginInformation");
+		JSONObject jb = new JSONObject();
 		if (conn != null) {
 			while (rs.next()) {// 指向下一行数据 如何有数据返回TRUE 没数据返回FALSE
 				if (username.equals(rs.getString("username")) && (password.equals(rs.getString("password")))) {
@@ -90,9 +93,11 @@ tag: Android
 			}
 		}
 		if (flag) {
-			out.println("登陆成功");
+			out.println(jb.put("Result", "登陆成功"));
+			//out.println("登陆成功");
 		} else {
-			out.println("用户名或密码错误");
+			out.println(jb.put("Result", "用户名或密码错误"));
+			//out.println("用户名或密码错误");
 		}
 	} catch (Exception e) {
 		e.printStackTrace();
