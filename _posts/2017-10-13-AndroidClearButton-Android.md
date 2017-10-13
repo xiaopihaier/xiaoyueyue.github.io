@@ -139,7 +139,7 @@ public class ClearEditText extends android.support.v7.widget.AppCompatEditText i
 ```
 随后我们修改aclogin.xml文件夹中的代码,将<EditText修改为<com.example.xiaopihaier.menu.ClearEditText,如图所示：
 <div align="center">
-	<img src="/images/image/editext.png" height="900" width="1000" />
+	<img src="/images/image/editext.png" height="900" width="1500" />
 </div>
 其中com.example.xiaopihaier.menu是在AndroidManifest.xml文件中的package中的内容。
 最后运行结果图如下：
