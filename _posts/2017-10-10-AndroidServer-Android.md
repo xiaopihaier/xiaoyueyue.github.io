@@ -150,18 +150,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         init();
     }
 
-    private Handler handler = new Handler() {
-        public void handleMessage(Message message) {
-            switch (message.what) {
-                case UPDATE_TEXT:
-                    Toast.makeText(Login.this, "登陆成功", Toast.LENGTH_LONG).show();
-                    break;
-                default:
-                    break;
-            }
-        }
-    };
-
     private void init() {
         username = (EditText) findViewById(R.id.Username);
         password = (EditText) findViewById(R.id.Password);
