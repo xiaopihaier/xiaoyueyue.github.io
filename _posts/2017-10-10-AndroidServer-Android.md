@@ -15,7 +15,7 @@ tag: Android
 <div align="center">
 	<img src="/images/image/SQLServer.png" height="500" width="800" />
 </div>
-随后我们创建一个javaweb，用来处理客户端向服务端发送的数据，这里要用到sqljdbc4.jar文件，将此文件放入WebContent-WEB-INF-lib目录下，随后我们创建两个jsp文件用于实现客户端的注册和登陆，并返回json数据，Android客户端解析jsp返回的json数据。
+随后我们创建一个javaweb，用来处理客户端向服务端发送的数据，这里要用到sqljdbc4.jar、java-json.jar文件，前者用于我们javaweb链接SQL server数据库并对数据库进行操作，后者用于我们javaweb来返回json格式的数据。将两个jar文件放入WebContent-WEB-INF-lib目录下，随后我们创建两个jsp文件用于实现客户端的注册和登陆，并返回json数据，Android客户端解析jsp返回的json数据。
 
 注册检测代码如下：
 
