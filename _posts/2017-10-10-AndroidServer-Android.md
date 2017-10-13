@@ -13,7 +13,7 @@ tag: Android
 第二步骤：
 服务端，我们先创建一个数据库，叫做Menu，然后我们再在数据库中创建一个表，叫做LoginInformation,表中我们创建两个字段，一个username，一个password，如图所示设置。
 <div align="center">
-	<img src="/images/image/SQLServer.png" height="500" width="800" />
+	<img src="/images/image/SQLServer.png" height="500" width="1000" />
 </div>
 随后我们创建一个javaweb，用来处理客户端向服务端发送的数据，这里要用到sqljdbc4.jar、java-json.jar文件，前者用于我们javaweb链接SQL server数据库并对数据库进行操作，后者用于我们javaweb来返回json格式的数据。将两个jar文件放入WebContent-WEB-INF-lib目录下，随后我们创建两个jsp文件用于实现客户端的注册和登陆，并返回json数据，Android客户端解析jsp返回的json数据。
 
