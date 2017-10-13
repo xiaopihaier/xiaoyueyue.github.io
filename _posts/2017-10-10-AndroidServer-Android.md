@@ -217,5 +217,5 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
 最后附上运行结果图：
 <div align="center">
-	<img src="/images/image/msg.png" height="50" width="200" />
+	<img src="/images/image/msg.png" height="100" width="200" />
 </div>
