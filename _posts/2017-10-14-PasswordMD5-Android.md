@@ -46,7 +46,7 @@ private void MD5() {
 ```
 最后我们将Git();方法中url链接地址改为注册的链接地址且将passowrd改为password_MD5。我们就用注册接口来看看我们加密后的效果吧:
 <div align="center">
-	<img src="/images/image/passwordMD5.png" height="100" width="300" />
+	<img src="/images/image/passwordMD5.png" height="100" width="100" />
   <img src="/images/image/passwordMD5_sql.png" height="100" width="300" />
 </div>
 到此说明我们的加密成功了，连数据库的管理员都不知道你的密码啦。
