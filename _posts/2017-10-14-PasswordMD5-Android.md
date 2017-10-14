@@ -51,4 +51,4 @@ private void MD5() {
 数据库：
   <img src="/images/image/passwordMD5_sql.png" height="100" width="300" />
 </div>
-到此说明我们的加密成功了，连数据库的管理员都不知道你的密码啦。
+到此说明我们的加密成功了，连数据库的管理员都不知道你的密码啦。<img src="/images/image/666.gif"/>
