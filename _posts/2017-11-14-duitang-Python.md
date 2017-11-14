@@ -6,7 +6,7 @@ description: "Python实现堆糖网站图片爬取下载"
 tag: Python
 ---
 
-待更重o_o ....
+待更中o_o ....
 
 
 ```
