@@ -6,12 +6,12 @@ description: 欢迎来到我的个人站~
 avatarTitle: baby
 # 头像里面的描述
 avatarDesc: android / java
-url: "http://xiaopihaier.github.io"
+url: "https://xiaopihaier.github.io"
 
 # Comment
 comment:
     disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    # uyan:   # 有言id,登录有言官网申请
 
 # Social
 social:
