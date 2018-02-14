@@ -18,9 +18,10 @@ from bs4 import BeautifulSoup
 
 def main():
     result = requests.get("https://www.lagou.com/jobs/list_c?labelWords=&fromSearch=true&suginput=")
-    print requests.result
+    print result.content
 
 
 if __name__ == '__main__':
     main()
+
 ```
