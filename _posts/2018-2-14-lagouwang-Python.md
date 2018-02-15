@@ -19,7 +19,8 @@ def main():
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                       'Chrome/64.0.3282.167 '
                       'Safari/537.36 ',
-        'Host': 'www.lagou.com'
+        'Host': 'www.lagou.com',
+        'Referer': 'https://www.lagou.com/'
     }
     result = requests.get("https://www.lagou.com/jobs/list_python?city=%E6%88%90%E9%83%BD&cl=false&fromSearch=true"
                           "&labelWords=&suginput=", headers=headers)
