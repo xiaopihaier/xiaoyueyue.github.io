@@ -54,8 +54,6 @@ public class CreatQRCode {
 
 完成后查看电脑C盘是否出现一个叫img.png的文件，如果有说明创建二维码成功，打开图片使用手机扫描，看看是否为自己的文字。最后贴上自己实验的结果：
 <div align="center">
-	<img src="/images/image/QR Code.png" height="1000" width="1000" />
-</div>
-<div align="center">
-	<img src="/images/image/QR Code_Results.png" height="1000" width="1000" />
+<img src="/images/image/QR Code.png" height="100" width="100" />
+	<img src="/images/image/QR Code_Results.png" height="100" width="100" />
 </div>
