@@ -56,3 +56,6 @@ public class CreatQRCode {
 <div align="center">
 	<img src="/images/image/QR Code.png" height="1000" width="1000" />
 </div>
+<div align="center">
+	<img src="/images/image/QR Code_Results.png" height="1000" width="1000" />
+</div>
